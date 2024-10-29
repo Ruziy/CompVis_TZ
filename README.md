@@ -27,7 +27,9 @@ upd. HOST=0.0.0.0 зачастую занят браузерами. В моём 
 ## Запуск через GitHub
 ```bash
 git clone https://github.com/Ruziy/CompVis_TZ.git
+cd CompVis_TZ
 pip install -r requirements.txt
+cd docker_main
 docker build -t <your_project_name> .
 docker run -e HOST=0.0.0.0 -e PORT=8001 -p 8001:8001 <your_project_name>
 ```
