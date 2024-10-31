@@ -1,9 +1,0 @@
-fastapi
-pydantic
-Pillow
-numpy
-uvicorn
-yolov5
-ultralytics
-huggingface-hub == 0.15.1 
-python-multipart
